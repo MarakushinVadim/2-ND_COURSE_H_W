@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  background-image: url(img/top_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1024px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-content: start;
+  gap: 32px;
+}
+.top__title {
+  margin-top: 217px;
+  grid-column: span 8;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  font-size: 64px;
+}
+.top__text {
+  margin-bottom: 12px;
+  grid-column: span 5;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+}
+.top__btn {
+  grid-column: span 12;
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  padding-left: 74px;
+  padding-right: 74px;
+}
+
+.mark {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.game_bar {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  background: rgb(0, 9, 21);
+}
+
+.game_card {
+  grid-column: span 4;
+  max-width: 378px;
+  height: 300px;
+  border-radius: 16px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: flex-end;
+}
+.game_card__1 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(img/game_1_img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.game_card__2 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(img/game_2_img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.game_card__3 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(img/game_3_img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=style.css.map */
