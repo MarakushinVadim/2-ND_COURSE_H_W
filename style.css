@@ -58,13 +58,6 @@ body {
   padding-right: 74px;
 }
 
-.mark {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0px;
-}
-
 .game_bar {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
