@@ -64,10 +64,12 @@ body {
   gap: 32px;
   background: rgb(0, 9, 21);
 }
+.game_bar__link {
+  grid-column: span 4;
+  text-decoration: none;
+}
 
 .game_card {
-  grid-column: span 4;
-  max-width: 378px;
   height: 300px;
   border-radius: 16px;
   margin-top: 128px;

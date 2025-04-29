@@ -73,11 +73,14 @@ body {
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
     background: rgb(0, 9, 21);
+
+    &__link {
+        grid-column: span 4;
+        text-decoration: none;
+    }
 }
 
 .game_card {
-    grid-column: span 4;
-    max-width: 378px;
     height: 300px;
     border-radius: 16px;
     margin-top: 128px;
@@ -90,6 +93,7 @@ body {
     letter-spacing: 0px;
     padding-left: 32px;
     padding-bottom: 32px;
+    
 
 
     display: flex;
