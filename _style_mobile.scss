@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 175px);
+        padding-right: calc(50% - 175px);
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        &__btn {
+            align-self: center;
+        }
+    }
+
+    .game_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 128px;
+        padding-bottom: 128px;
+
+        &__link {
+            width: 343px;
+        }
+    }
+
+    .game_card {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    
+
+
+.left_card {
+    align-items: center;
+
+    &__title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+
+.right_card {
+    &__svg {
+        width: 344px;
+    }
+}
+
+}
