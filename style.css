@@ -61,6 +61,7 @@ body {
 .top__btn:hover {
   border-radius: 30px;
   background: rgb(235, 68, 63);
+  cursor: url("img/cursor-hand.svg"), auto;
 }
 
 .game_bar {
@@ -93,6 +94,7 @@ body {
 .game_card:hover {
   border: 3px solid rgb(68, 210, 255);
   border-radius: 16px;
+  cursor: url("img/cursor-hand.svg"), auto;
 }
 .game_card__1 {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(img/game_1_img.jpeg);
@@ -161,6 +163,7 @@ body {
 .left_card__btn:hover {
   border-radius: 30px;
   background: rgb(235, 68, 63);
+  cursor: url("img/cursor-hand.svg"), auto;
 }
 
 @media (max-width: 767px) {

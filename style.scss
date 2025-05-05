@@ -70,6 +70,8 @@ body {
         &:hover {
             border-radius: 30px;
             background: rgb(235, 68, 63);
+
+            cursor: url('img/cursor-hand.svg'), auto;
         }
     }
 
@@ -110,6 +112,8 @@ body {
     &:hover {
         border: 3px solid rgb(68, 210, 255);
         border-radius: 16px;
+        cursor: url('img/cursor-hand.svg'), auto;
+        
     }
 
 
@@ -191,6 +195,7 @@ body {
         &:hover {
             border-radius: 30px;
             background: rgb(235, 68, 63);
+            cursor: url('img/cursor-hand.svg'), auto;
         }
     }
 }
