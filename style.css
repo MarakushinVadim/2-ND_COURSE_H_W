@@ -166,6 +166,16 @@ body {
   cursor: url("img/cursor-hand.svg"), auto;
 }
 
+.remember_words {
+  padding-top: 239px;
+  padding-bottom: 239px;
+  background: rgb(0, 9, 21);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: calc(50% - 175px);
@@ -200,6 +210,11 @@ body {
     margin-top: 0;
     margin-bottom: 0;
   }
+  .seasons {
+    padding-top: 50px;
+    padding-bottom: 136px;
+    gap: 64px;
+  }
   .left_card {
     align-items: center;
   }
@@ -214,5 +229,16 @@ body {
   }
   .right_card__svg {
     width: 344px;
+    height: 236px;
+  }
+  .remember_words {
+    padding-top: 0;
+    padding-bottom: 90px;
+    flex-direction: column-reverse;
+    gap: 64px;
+  }
+  .svg_image {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
