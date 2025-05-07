@@ -176,6 +176,70 @@ body {
   align-items: center;
 }
 
+.riddles {
+  background-image: url(img/riddles_bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.riddles__title {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+}
+.riddles__description {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.riddles__btn {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  padding-left: 74px;
+  padding-right: 74px;
+  transition: all 0.3s;
+}
+.riddles__btn:hover {
+  border-radius: 30px;
+  background: rgb(235, 68, 63);
+  cursor: url("img/cursor-hand.svg"), auto;
+}
+
+.footer {
+  height: 80px;
+  border-top: 1px solid rgba(184, 212, 255, 0.2);
+  background: rgb(0, 9, 21);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__title {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: calc(50% - 175px);
@@ -240,5 +304,19 @@ body {
   .svg_image {
     width: 344px;
     height: 236px;
+  }
+  .riddles {
+    justify-content: flex-start;
+  }
+  .riddles__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .riddles__description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .footer {
+    border-top: none;
   }
 }/*# sourceMappingURL=style.css.map */
