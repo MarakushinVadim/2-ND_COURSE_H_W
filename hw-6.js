@@ -38,4 +38,66 @@ if (result === undefined) {
 } else {
     alert('Угадал')
     console.log(result)
+};
+
+let firstLine = 'abcdef';
+const sevenArray = firstLine.split('').reverse();
+firstLine = sevenArray.join('');
+console.log(firstLine);
+
+const eighthArray = [[1, 2, 3,],[4, 5, 6]];
+const nineArray = eighthArray[0].concat(eighthArray[1])
+console.log(nineArray)
+
+const tenthArray = [1, 2, 4, 5, 7, 8, 10]
+let i = 0;
+tenthArray.forEach((el) => {
+    i++
+    if (tenthArray.length > i) {
+        console.log(el + tenthArray[i])
+    }
+});
+
+const eleventhArray = [1, 2, 3, 4, 5]
+const squareArray = eleventhArray.map(el => el ** 2)
+console.log(squareArray)
+
+function getLengthWords(anyArray) {
+    const newArray = []
+    for (const el of anyArray) {
+        let objArray = el.length
+        newArray.push(objArray)
+    }
+    return newArray
 }
+const twelvethArray = ['слово', '', 'слог', 'длинное предложение', 'буква']
+console.log(getLengthWords(twelvethArray))
+
+function filterPositive(array) {
+    const filterArray = array.filter(el => Number(el) < 0)
+    return filterArray
+  
+}
+
+console.log(filterPositive([-1, 0, 5, -10, 56]));
+console.log(filterPositive([-25, 25, 0, -1000, -2]));
+
+const thirteenthArray = []
+for (let index = 0; index < 10; index++) {
+    thirteenthArray.push(Math.floor(Math.random(1, 10) * 10 + 1))
+}
+
+const honestArray = thirteenthArray.filter(el => el % 2 === 0)
+
+console.log(thirteenthArray)
+console.log(honestArray)
+
+
+const fourteenthArray = []
+for (let index = 0; index < 6; index++) {
+    fourteenthArray.push(Math.floor(Math.random(1, 10) * 10 + 1))
+}
+
+let arithmeticMean = (fourteenthArray.reduce((total, number) => total + number, 0)) / fourteenthArray.length
+console.log(fourteenthArray)
+console.log(arithmeticMean)
