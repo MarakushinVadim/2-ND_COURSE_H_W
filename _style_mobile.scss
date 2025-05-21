@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .center {
         padding-left: calc(50% - 175px);
         padding-right: calc(50% - 175px);
@@ -39,63 +39,62 @@
         margin-bottom: 0;
     }
 
-.seasons {
-    padding-top: 50px;
-    padding-bottom: 136px;
-    gap: 64px;
-}    
+    .seasons {
+        padding-top: 50px;
+        padding-bottom: 136px;
+        gap: 64px;
+    }    
 
 
-.left_card {
-    align-items: center;
+    .left_card {
+        align-items: center;
 
-    &__title {
-        font-size: 32px;
-        line-height: 39px;
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
     }
 
-    &__text {
-        font-size: 14px;
-        line-height: 22px;
-        text-align: center;
+    .right_card {
+        &__svg {
+            width: 344px;
+            height: 236px;
+        }
     }
-}
 
-.right_card {
-    &__svg {
+    .remember_words {
+        padding-top: 0;
+        padding-bottom: 90px;
+        flex-direction: column-reverse;
+        gap: 64px;
+    }
+
+    .svg_image {
         width: 344px;
         height: 236px;
     }
-}
 
-.remember_words {
-    padding-top: 0;
-    padding-bottom: 90px;
-    flex-direction: column-reverse;
-    gap: 64px;
-}
+    .riddles {
+        justify-content: flex-start;
 
-.svg_image {
-    width: 344px;
-    height: 236px;
-}
+        &__title {
+            font-size: 32px;
+            line-height: 39px;  
+        }
 
-.riddles {
-    justify-content: flex-start;
-
-    &__title {
-        font-size: 32px;
-        line-height: 39px;  
+        &__description {
+            font-size: 14px;
+            line-height: 22px; 
+        } 
     }
 
-    &__description {
-        font-size: 14px;
-        line-height: 22px; 
-    } 
-}
-
-.footer {
-    border-top: none;
-}
-
+    .footer {
+        border-top: none;
+    }
 }

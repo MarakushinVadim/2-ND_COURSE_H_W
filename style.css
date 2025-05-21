@@ -240,7 +240,7 @@ body {
   letter-spacing: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .center {
     padding-left: calc(50% - 175px);
     padding-right: calc(50% - 175px);
